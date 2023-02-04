@@ -219,7 +219,7 @@ errorCode userLogin(user u)
 errorCode changePassword()
 {
     u8 newPass[5];
-    printf("\nEnter a new password of 5 characters: ");
+    printf("\nEnter a new password of 4 characters: ");
     fflush(stdin);
     scanf("%[^\n]s", newPass);
     strcpy(defaultUser.pass, newPass);
